@@ -1,0 +1,86 @@
+.titulo h1 {
+    display: flex;
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    background-color:#00274a;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content:center;
+    height:80px ;
+    background-color:#00274a;
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background:#00274a;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+.introducao {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    color: white;
+    
+}
+body{
+    background-image:url(../oceanos/logo.oceano.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imgTitulo{
+width: 100px;
+height: 100px;
+align-items: center;
+}
+.msg{
+    color: white;
+    display: flex;
+    justify-content:baseline;
+    
+}
